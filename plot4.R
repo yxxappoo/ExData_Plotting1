@@ -16,7 +16,6 @@ Global_Reactive_Power <- as.numeric(usedata$Global_reactive_power)
 date_time <- strptime(paste(usedata$Date, usedata$Time), format="%d/%m/%Y %H:%M:%S")
 
 ## Plot the fourth plot
-## plot: Evergy sub metering over data
 
 # set up 2:2 pattern for plotting
 png("plot4.png", width=480, height=480)
